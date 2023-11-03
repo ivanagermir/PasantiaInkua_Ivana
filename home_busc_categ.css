@@ -1,0 +1,46 @@
+.rounded-icon {
+    width: 50px; /* Ajusta el tamaño según tus necesidades */
+    height: 50px; /* Ajusta el tamaño según tus necesidades */
+    border-radius: 50%; /* Hace que el botón tenga forma redonda */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .story-icon {
+    width: 80px; /* Ajusta el tamaño del círculo según tus necesidades */
+    height: 80px; /* Ajusta el tamaño del círculo según tus necesidades */
+    background-color: rgb(170, 216, 157); /* Cambia el color de fondo del círculo según tus preferencias */
+    border-radius: 50%; /* Hace que el contenedor sea un círculo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .categoria-icon {
+    width: 70px; /* Ajusta el tamaño de la imagen según tus necesidades */
+    height: 70px; /* Ajusta el tamaño de la imagen según tus necesidades */
+    background-color: none; /* Cambia el color de fondo de la imagen según tus preferencias */
+    border-radius: 50%; /* Hace que el contenedor de la imagen sea un círculo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Recorta cualquier contenido que se desborde del círculo */
+  }
+  
+  .categoria-icon img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .categorias {
+    display: flex;
+   
+  }
+
+  .story-icon {
+    max-width: 100px; /* Ajusta el tamaño máximo de cada icono según tus necesidades */
+    padding: 10px; /* Ajusta el espacio entre los iconos según tus preferencias */
+  }
+  
